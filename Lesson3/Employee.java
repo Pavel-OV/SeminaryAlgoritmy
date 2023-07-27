@@ -27,7 +27,7 @@ public class Employee {
 
     @Override
     public String toString() {
-        return String.format("%s - %d", name, age);
+        return String.format("Имя %s - %d", name, age);
     }
 
     @Override
